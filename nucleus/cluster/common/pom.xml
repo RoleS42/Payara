@@ -105,6 +105,12 @@
             <artifactId>j-interop-repackaged</artifactId>
             <version>${project.version}</version>
         </dependency>
+	    <dependency>
+		    <groupId>org.jinterop</groupId>
+		    <artifactId>j-interop</artifactId>
+		    <version>2.0.4</version>
+		    <scope>compile</scope>
+	    </dependency>
     </dependencies>
 </project>
 
