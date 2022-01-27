@@ -199,7 +199,6 @@ public class LoggingConfigImpl implements LoggingConfig {
     @Override
     public synchronized Map<String, String> setLoggingProperties(Map<String, String> properties) throws IOException {
         loadLoggingProperties();
-        checkForLoggingProperties(properties);
         // need to map the name given to the new name in logging.properties file
         Map<String, String> m = getMap(properties);
         closePropFile();
